@@ -1,4 +1,4 @@
-package com.evanlu.thinkinjava.interfacetest.processor;
+package com.evanlu.thinkinjava.interfacetest.basic.processor;
 
 public class Apply {
     public static void process(Processor p, Object s){

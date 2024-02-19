@@ -1,4 +1,4 @@
-package com.evanlu.thinkinjava.interfacetest.processor;
+package com.evanlu.thinkinjava.interfacetest.basic.processor;
 
 import java.util.Arrays;
 

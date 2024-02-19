@@ -1,4 +1,4 @@
-package com.evanlu.thinkinjava.interfacetest.waveform;
+package com.evanlu.thinkinjava.interfacetest.basic.waveform;
 
 public class Waveform {
     private static long counter;

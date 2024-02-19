@@ -1,4 +1,4 @@
-package com.evanlu.thinkinjava.interfacetest.afterinterface;
+package com.evanlu.thinkinjava.interfacetest.basic.afterinterface;
 
 public interface Processor {
     public String name();

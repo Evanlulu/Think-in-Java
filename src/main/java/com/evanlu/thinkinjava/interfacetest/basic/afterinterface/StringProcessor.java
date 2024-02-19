@@ -1,6 +1,4 @@
-package com.evanlu.thinkinjava.interfacetest.afterinterface;
-
-import com.evanlu.thinkinjava.interfacetest.processor.Apply;
+package com.evanlu.thinkinjava.interfacetest.basic.afterinterface;
 
 public abstract class StringProcessor implements Processor {
     public String name(){

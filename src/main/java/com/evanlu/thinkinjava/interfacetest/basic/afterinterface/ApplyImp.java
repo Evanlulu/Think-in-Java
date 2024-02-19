@@ -1,7 +1,4 @@
-package com.evanlu.thinkinjava.interfacetest.afterinterface;
-
-import com.evanlu.thinkinjava.interfacetest.processor.Splitter;
-import com.evanlu.thinkinjava.interfacetest.processor.Upcase;
+package com.evanlu.thinkinjava.interfacetest.basic.afterinterface;
 
 public class ApplyImp {
     public static void process(Processor p, Object s){
