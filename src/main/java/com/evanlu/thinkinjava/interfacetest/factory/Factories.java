@@ -8,7 +8,7 @@ public class Factories {
     }
 
     public static void main(String[] args) {
-        serviceConsumer(new Implementation1Factory());
+        serviceConsumer(Implementation1.factory);
         serviceConsumer(new Implementation2Factory());
     }
 }
