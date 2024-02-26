@@ -9,13 +9,13 @@ public class InterfaceVsIterator {
     public static void display(Iterator<Pet> it){
         while (it.hasNext()){
             Pet p = it.next();
-            System.out.println(p.id() + ":" + p + " ");
+            System.out.print(p.id() + ":" + p + " ");
         }
         System.out.println();
     }
     public static void display(Collection<Pet> it){
         for (Pet p : it) {
-            System.out.println(p.id() + ":" + p + " ");
+            System.out.print(p.id() + ":" + p + " ");
         }
         System.out.println();
     }
@@ -31,8 +31,10 @@ public class InterfaceVsIterator {
         display(petSet);
         display(pets.iterator());
         display(petSet.iterator());
-        System.out.println(pMap);
-        System.out.println(pMap.keySet());
+        System.out.print(pMap);
+        System.out.println();
+        System.out.print(pMap.keySet());
+        System.out.println();
         display(pMap.values());
         display(pMap.values().iterator());
 
