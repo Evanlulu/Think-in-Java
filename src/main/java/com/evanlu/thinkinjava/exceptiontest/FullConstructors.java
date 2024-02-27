@@ -7,7 +7,7 @@ public class FullConstructors {
     }
     public static void g() throws MyException{
         System.out.println("Throw MyException from g()");
-        throw new MyException();
+        throw new MyException("Originated in g()");
     }
 
     public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class FullConstructors {
         try {
             g();
         }catch (MyException e){
-            e.printStackTrace(System.out);
+            e.printStackTrace();
         }
     }
 }
