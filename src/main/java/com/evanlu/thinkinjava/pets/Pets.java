@@ -1,6 +1,9 @@
 //: typeinfo/pets/Pets.java
 // Facade to produce a default PetCreator.
 package com.evanlu.thinkinjava.pets;
+import com.evanlu.thinkinjava.rtti.generic.individual.LiteralPetCreator;
+import com.evanlu.thinkinjava.rtti.generic.individual.PetCreator;
+
 import java.util.*;
 
 public class Pets {

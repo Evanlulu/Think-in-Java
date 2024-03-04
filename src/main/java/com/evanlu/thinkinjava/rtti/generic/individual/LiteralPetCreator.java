@@ -1,8 +1,9 @@
-package com.evanlu.thinkinjava.pets;
+package com.evanlu.thinkinjava.rtti.generic.individual;
+import com.evanlu.thinkinjava.pets.*;
+
 import java.util.*;
 
 public class LiteralPetCreator extends PetCreator {
-
 
   public static final List<Class<? extends Pet>> allTypes =
     Collections.unmodifiableList(Arrays.asList(
