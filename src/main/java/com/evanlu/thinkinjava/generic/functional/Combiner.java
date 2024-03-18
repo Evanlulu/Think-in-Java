@@ -1,4 +1,4 @@
 package com.evanlu.thinkinjava.generic.functional;
-interface Combine<T>{
+interface Combiner<T>{
     T combine(T x, T y);
 }

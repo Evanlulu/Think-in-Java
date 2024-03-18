@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class Functional {
-    public static <T> T reduce(Iterable<T> seq, Combine<T> combiner){
+    public static <T> T reduce(Iterable<T> seq, Combiner<T> combiner){
         Iterator<T> it = seq.iterator();
         if (it.hasNext()){
             T result = it.next();
