@@ -26,6 +26,7 @@ public class TradingModelSimulation {
                 int max= 0;
 
 
+
                 while (true) {
                     int movement = random.nextInt(100) < 49 ? 1 : -1;
                     position += movement;
